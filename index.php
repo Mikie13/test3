@@ -12,40 +12,57 @@
 
 	<p>Ubuntu Server PHP Deployment</p>
 
+		<!-- Form starts here -->
+		<form method="POST" action="your-server-side-script.php">
 </body>
 <div>
-	<label>Firstname</label>
-	<input type="text" name="Firstname"class="form-control">
+	<!-- Name Field -->
+	<div class="mb-3">
+	<label for="Firstname" class="form-label">First Name:</label>
+	<input type="text" name="Firstname"id="firstname" class="form-control" required>
 </div>
 
 <div>
-	<label>Middlename</label>
-	<input type="text" name="Middlename"class="form-control">
+	<!-- Middle Name Field -->
+	<div class="mb-3">
+	<label for="Middlename" class="form-label">Middle Name:</label>
+	<input type="text" name="Middlename"id="middlename" class="form-control" required>
 </div>
 
 
 <div>
-	<label>Lastname</label>
-	<input type="text" name="Lastname"class="form-control">
+	<!-- Last Name Field -->
+	<div class="mb-3">
+	<label for="Lastname" class="form-label">Last Name:</label>
+	<input type="text" name="Lastname"id="Lastname" class="form-control" required>
 </div>
 
 <div>
-	<label>Age</label>
-	<input type="text" name="Age"class="form-control">
+	<!-- Age Field -->
+	<div class="mb-3">
+	<label for="Age" class="form-label">Age:</label>
+	<input type="text" name="Age"id="age" class="form-control" required>
 </div>
 
 <div>
-<label>Address</label>
-	<input type="text" name="Address"class="form-control">
+<!-- Address Field -->
+	<div class="mb-3">
+	<label for="Address" class="form-label">Address:</label>
+	<input type="text" name="Address"id="address" class="form-control" required>
 </div>
 
 <div>
-<label>Course&Section</label>
-	<input type="text" name="Course&Section"class="form-control">
+<!-- Course and Section Field -->
+	<div class="mb-3">
+	<label for="courseandsection" class="form-label">Course and Section:</label>
+	<input type="text" name="courseandsection"id="courseandsection" class="form-control" required>
 </div>
 
 
-<button type="submit"> </button>
+<!-- Submit Button -->
+<div class="mb-3">
+	<button type="submit" class="btn btn-primary">Submit</button>
+</div>
 
 </html>
 
